@@ -1,0 +1,17 @@
+﻿Здесь лежат файлы utility.ino
+в которых изменена функция
+определения порядкового номера светодиода
+по его координатам на матрице.
+
+Например, если вы собрали матрицу размером 16х16
+из четырёх штук размера 8х8,
+вам придётся переписать функцию
+uint16_t XY(uint8_t x, uint8_t y)
+
+И в этом папке есть несколько примеров.
+
+Источники:
+https://editor.soulmatelights.com/gallery/1186-xy-maker
+https://editor.soulmatelights.com/gallery/1189-xy-16x24
+https://editor.soulmatelights.com/gallery/1187-xy-16x32
+https://editor.soulmatelights.com/gallery/1188-xy-32x16
