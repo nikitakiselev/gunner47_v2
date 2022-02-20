@@ -493,7 +493,7 @@ uint8_t espMode = ESP_MODE;                                 // ESP_MODE може
 #endif
 
 // --- ВНЕШНЕЕ УПРАВЛЕНИЕ --------------
-#define USE_MQTT              (false)                       // true - используется mqtt клиент, false - нет
+#define USE_MQTT              (true)                       // true - используется mqtt клиент, false - нет
 #if USE_MQTT
 #define MQTT_RECONNECT_TIME   (10U)                         // время в секундах перед подключением к MQTT брокеру в случае потери подключения
 #endif
